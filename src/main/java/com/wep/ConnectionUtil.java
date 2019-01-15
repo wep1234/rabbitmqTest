@@ -13,9 +13,9 @@ public class ConnectionUtil {
             ConnectionFactory factory = new ConnectionFactory();
 
             //设置RabbitMQ地址
-            factory.setHost("47.98.176.255");
-            factory.setUsername("rabbit");
-            factory.setPassword("rabbitadmin");
+            factory.setHost("localhost");
+            factory.setUsername("user");
+            factory.setPassword("password");
             factory.setPort(5672);
 
             //创建一个新的连接
@@ -32,9 +32,9 @@ public class ConnectionUtil {
             ConnectionFactory factory = new ConnectionFactory();
 
             //设置RabbitMQ地址
-            factory.setHost("47.98.176.255");
-            factory.setUsername("rabbit");
-            factory.setPassword("rabbitadmin");
+            factory.setHost("localhost");
+            factory.setUsername("user");
+            factory.setPassword("password");
             factory.setPort(5672);
             factory.setAutomaticRecoveryEnabled(true);
             factory.setNetworkRecoveryInterval(10000);
